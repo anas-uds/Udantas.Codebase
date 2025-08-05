@@ -1,0 +1,6 @@
+@Platform.Udantas.CoreAPI_HostAddress = http://localhost:5178
+
+GET {{Platform.Udantas.CoreAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

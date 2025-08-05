@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dbs", "Dbs", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "sqldb-udantas-ci-db", "sqldb-udantas-ci-db\sqldb-udantas-ci-db.sqlproj", "{2518A955-30A9-4661-AE32-E2D28C315FB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11B76503-EC86-4CE6-866B-3C722126863E}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{E90C09EF-7BA3-4E7B-B4FB-613531B51A9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApis", "WebApis", "{3455A475-08C1-4072-8125-FD08ACB17CD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform.Udantas.Core", "Platform.Udantas.Core\Platform.Udantas.Core.csproj", "{5CA047BB-823A-4EB3-A721-56CA0E645959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform.Udantas.CoreAPI", "Platform.Udantas.CoreAPI\Platform.Udantas.CoreAPI.csproj", "{5B2C7121-8561-44A3-B5B7-032AF8C3289A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform.Udantas.Shared", "Platform.Udantas.Shared\Platform.Udantas.Shared.csproj", "{EB109F02-6E28-4084-99F1-5B81E0DB5F2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2518A955-30A9-4661-AE32-E2D28C315FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2518A955-30A9-4661-AE32-E2D28C315FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2518A955-30A9-4661-AE32-E2D28C315FB6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2518A955-30A9-4661-AE32-E2D28C315FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2518A955-30A9-4661-AE32-E2D28C315FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2518A955-30A9-4661-AE32-E2D28C315FB6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5CA047BB-823A-4EB3-A721-56CA0E645959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA047BB-823A-4EB3-A721-56CA0E645959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA047BB-823A-4EB3-A721-56CA0E645959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA047BB-823A-4EB3-A721-56CA0E645959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B2C7121-8561-44A3-B5B7-032AF8C3289A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2C7121-8561-44A3-B5B7-032AF8C3289A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2C7121-8561-44A3-B5B7-032AF8C3289A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2C7121-8561-44A3-B5B7-032AF8C3289A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB109F02-6E28-4084-99F1-5B81E0DB5F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB109F02-6E28-4084-99F1-5B81E0DB5F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB109F02-6E28-4084-99F1-5B81E0DB5F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB109F02-6E28-4084-99F1-5B81E0DB5F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2518A955-30A9-4661-AE32-E2D28C315FB6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3455A475-08C1-4072-8125-FD08ACB17CD1} = {E90C09EF-7BA3-4E7B-B4FB-613531B51A9B}
+		{5CA047BB-823A-4EB3-A721-56CA0E645959} = {E90C09EF-7BA3-4E7B-B4FB-613531B51A9B}
+		{5B2C7121-8561-44A3-B5B7-032AF8C3289A} = {3455A475-08C1-4072-8125-FD08ACB17CD1}
+		{EB109F02-6E28-4084-99F1-5B81E0DB5F2B} = {E90C09EF-7BA3-4E7B-B4FB-613531B51A9B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FB8C1A3-591F-4589-8FFF-1C0ACCFCADFE}
+	EndGlobalSection
+EndGlobal
